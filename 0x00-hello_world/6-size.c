@@ -5,10 +5,10 @@
   */
 int main (void)
 {
-	Printf("1 byte(s)\n");
-	printf("4 byte(s)\n");
-	printf("4 byte(s)\n");
-	printf("8 byte(s)\n");
-	printf("4 byte(s)\n");
+	printf("4 bytes\n");
+	printf("4 bytes\n");
+	printf("4 bytes\n");
+	printf("8 bytes\n");
+	printf("4 bytes\n");
 	return (0);
 }
