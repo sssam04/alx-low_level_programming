@@ -5,7 +5,7 @@
   */
 int main (void)
 {
-	printf("4 bytes\n");
+	printf("1 bytes\n");
 	printf("4 bytes\n");
 	printf("4 bytes\n");
 	printf("8 bytes\n");
