@@ -7,7 +7,6 @@
   *     *
   *      * Return: Always 0 (success)
   */
-
 int main(void)
 {
 
@@ -15,11 +14,11 @@ int main(void)
 
 	while (alpha <= 'z')
 	
-	{
-	putchar (alpha);
-	alpha ++;
-	}
-	putchar('\n');
+{
+putchar (alpha);
+alpha ++;
+}
+putchar('\n');
 	return (0);
 
 }
