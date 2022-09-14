@@ -8,15 +8,15 @@
 int main(void)
 
 {
-	putchar('H');
+	putchar('C');
 	putchar('o');
-	putchar('l');
-	putchar('b');
-	putchar('e');
+	putchar('h');
+	putchar('o');
 	putchar('r');
 	putchar('t');
-	putchar('o');
-	putchar('n');
+	putchar('i');
+	putchar('x');
+	
 	putchar('\n');
 
 		return (0);
