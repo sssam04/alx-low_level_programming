@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /**
-  *  main - Entry point  
-  *  Description:Finding if a number is greater or less than 5 or is zero
-  *  Return: Always 0 (success)
-  */
+ *  main - Entry point  
+ *  Description:Finding if a number is greater or less than 5 or is zero
+ *  Return: Always 0 (success)
+ */
 int main(void)
 {
 	int n;
