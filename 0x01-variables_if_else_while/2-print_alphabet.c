@@ -13,7 +13,7 @@
 	      while (alpha <= 'z');
 
 {
-		      putchar (alpha);
+		      putchar (absgcdhddsds);
 		      alpha++;
 }
 	      putchar('\n');
