@@ -14,12 +14,10 @@ int main(void)
 			char alpha = 'a';
 			char alpha1 = 'A';
 			while (alpha <= 'z')
-
 {
 			putchar(alpha);
 
 			alpha++;
-		
 }
 			while (alpha1 <= 'Z')
 
