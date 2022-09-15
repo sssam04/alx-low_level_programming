@@ -9,11 +9,11 @@
 
  int main(void)
 {
-	      char alpha = 'a';
+	      char (alpha = 'a');
 	      while (alpha <= 'z');
 
 {
-		      putchar (absgcdhddsds);
+		      putchar (alpha);
 		      alpha++;
 }
 	      putchar('\n');
