@@ -1,22 +1,33 @@
-#include <stdio.h>
+#include "main.h"
+
 
 /**
- * main - Prints Holberton
- * Return: Always 0 (Success)
+ * main - Entry point
+ * Return: Always returns 0
  */
+
+
 
 int main(void)
 
 {
-	putchar('C');
-	putchar('o');
-	putchar('h');
-	putchar('o');
-	putchar('r');
-	putchar('t');
-	putchar('i');
-	putchar('x');
-	putchar('\n');
+			_putchar('_');
+				_putchar('p');
 
-		return (0);
+					_putchar('u');
+
+						_putchar('t');
+
+							_putchar('c');
+
+								_putchar('h');
+
+									_putchar('a');
+
+									_putchar('r');
+
+											_putchar('\n');
+
+												return (0);
+
 }
