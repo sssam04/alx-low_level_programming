@@ -1,5 +1,5 @@
-#include"main.h" 
-#include<stdio.h> 
+#include"main.h"
+#include<stdio.h>
 
 /**
  * mul - multiplies
@@ -10,14 +10,14 @@
  *
  * Return: product of a & b
  */
- 
+
 int mul(int a, int b)
 
 {
 
 	int product = a * b;
 
-	 
+
 	return (product);
 
 }
