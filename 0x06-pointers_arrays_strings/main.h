@@ -4,15 +4,7 @@
 
 #include <stdio.h>
 
-/**
 
-   *void prototypes()
-
-    *int prototypes()
-
-     *char prototypes()
-
-      */
 
 void reverse_array(int *a, int n);
 
@@ -21,6 +13,8 @@ void print_number(int n);
 void print_buffer(char *b, int size);
 
 int _strcmp(char *s1, char *s2);
+
+int _putchar(char c);
 
 char *_strcat(char *dest, char *src);
 
@@ -42,4 +36,4 @@ char *add_strings(char *n1, char *n2, char *r, int r_index);
 
 
 
-#endif /*MAIN_H*/
+#endif
