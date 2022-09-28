@@ -2,8 +2,8 @@
 #define MAIN_H
 
 /**
- void prototypes()
- int prototypes()
+ * void prototypes()
+ *int prototypes()
  */
 
 int _putchar(char);
