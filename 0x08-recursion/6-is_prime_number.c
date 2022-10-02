@@ -12,16 +12,16 @@ int is_prime_number(int n)
 
 {
 
-		
+
 			if (n < 2)
 
 			return (0);
-			
+
 			if (n < 4)
 
 				return (1);
 
-			return (is_prime(n, 2));
+			return (is_prime_number(n, 2));
 
 }
 
