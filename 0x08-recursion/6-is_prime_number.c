@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 
 
 /**
@@ -12,16 +12,15 @@ int is_prime_number(int n)
 
 {
 
+	int start = n / 2;
 
-			if (n < 2)
 
-			return (0);
 
-			if (n < 4)
+	if (n <= 1)
 
-				return (1);
+		return (0);
 
-			return (is_prime_number(n, 2));
+	return (is_prime(n, start));
 
 }
 
@@ -32,21 +31,20 @@ int is_prime_number(int n)
  * @n: number to be checked
  * @start: number to start checking from
  * Return: 1 if n is prime, 0 otherwise
-*/
+ */
 
 int is_prime(int n, int start)
 
 {
 
-			if (n % start == 0)
+	if (start <= 1)
 
-			return (0);
+		return (1);
 
-			else if (_sqrt(n, 1) < start)
+	else if (n % start == 0)
 
-			return (1);
+		return (0);
 
-			else
+	return (is_prime(n, start - 1));
 
-			return (is_prime(n, start + 1));
 }
